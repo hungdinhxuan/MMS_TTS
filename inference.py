@@ -108,7 +108,7 @@ else:
     device = torch.device("cpu")
 
 def main():
-    LANGS = ["eng", "kor", "nan", "rus", "vie"]
+    LANGS = ["eng", "kor", "rus", "vie", "nod", "hin", "ara", "fra", "deu"]
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--lang", 

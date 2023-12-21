@@ -28,8 +28,8 @@ def download(lang, tgt_extract_dir="./models", tgt_dir="./"):
   subprocess.check_output(cmd, shell=True)
   print(f"Model checkpoints in {lang_dir}: {os.listdir(lang_dir)}")
   return lang_dir
-#	Chinese, Min Nan
-LANGS = ["eng", "kor", "nan", "rus", "vie"]
+#	English (eng), Korean (kor), Russian (rus), Vietnamese (vie), Thai (nod), Hindi (hin), Arabic (ara), French (fra), German standard (deu)
+LANGS = ["eng", "kor", "rus", "vie", "nod", "hin", "ara", "fra", "deu"]
 
 for LANG in LANGS:
     ckpt_dir = download(LANG)
