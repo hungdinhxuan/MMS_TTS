@@ -25,6 +25,7 @@ CUDA_VISIBLE_DEVICES=2 python inference.py --lang rus --transcript_file ../trans
 # Support languages
 - [ ]  Japanese
 - [ ]  Chinese
+- [x]  English
 - [x]  Russian
 - [x]  Korean
 - [x]  French
