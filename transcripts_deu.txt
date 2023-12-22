@@ -1,2 +1,200 @@
-00000001|Mein Name ist Anna. Ich komme aus Deutschland. Ich lebe in Berlin.
-00000002|Ich lerne seit einem Jahr Deutsch. Ich höre gerne Musik.
+000001|Hallo, mein Name ist Max. Ich bin 21 Jahre alt. Freut mich, Sie kennenzulernen.
+000002|Guten Morgen, wie geht es Ihnen heute?
+000003|Ich arbeite als Ingenieur in einer großen Firma in Berlin.
+000004|Das Wetter ist heute sehr schön, die Sonne scheint.
+000005|Können Sie mir bitte den Weg zum Bahnhof erklären?
+000006|Ich lerne seit zwei Jahren Deutsch und finde die Sprache sehr interessant.
+000007|Meine Familie und ich gehen später in den Park spazieren.
+000008|Könnten Sie mir bitte helfen, diesen Koffer zu tragen?
+000009|Ich habe gestern einen sehr spannenden Film im Kino gesehen.
+000010|Das Restaurant, in das wir gestern gegangen sind, war ausgezeichnet.
+000011|Ich plane, nächsten Sommer einen Deutschkurs zu besuchen.
+000012|Können wir uns um vier Uhr am Eingang des Museums treffen?
+000013|Ich habe mein Handy zu Hause vergessen und fühle mich jetzt etwas verloren.
+000014|Mein Lieblingssport ist Fußball, und ich spiele jedes Wochenende.
+000015|Das Konzert gestern Abend war unglaublich, die Band war sehr gut.
+000016|Ich lese gerade ein Buch über die Geschichte Berlins.
+000017|Könnten Sie mir bitte einen Kaffee ohne Zucker bringen?
+000018|Nächste Woche habe ich ein wichtiges Vorstellungsgespräch.
+000019|Ich habe vor, dieses Jahr mehr zu reisen und neue Orte zu entdecken.
+000020|Mein Bruder studiert Informatik an der Universität München.
+000021|Könnten Sie das Fenster schließen? Es zieht ein wenig.
+000022|Ich habe vor, nächstes Wochenende einen Marathon zu laufen.
+000023|Können Sie mir bitte sagen, wie spät es ist?
+000024|Ich habe meine Brille irgendwo in diesem Raum verloren.
+000025|Das neue Café an der Ecke macht den besten Cappuccino.
+000026|Ich habe gestern Abend meine Freunde getroffen und wir hatten viel Spaß.
+000027|Könnten Sie mir bitte ein Glas Wasser bringen?
+000028|Ich interessiere mich sehr für Kunst und besuche oft Galerien.
+000029|Meine Tochter lernt Klavier spielen und übt jeden Tag.
+000030|Könnten Sie mir bitte die Speisekarte zeigen?
+000031|Ich habe vor, nächstes Jahr ein Auslandssemester in Deutschland zu machen.
+000032|Könnten Sie mir bitte einen Stift leihen?
+000033|Ich habe meine Schlüssel im Auto gelassen und kann jetzt nicht hinein.
+000034|Das neue Theaterstück, das ich gesehen habe, war sehr beeindruckend.
+000035|Ich treffe mich heute Abend mit Kollegen zum Abendessen.
+000036|Könnten Sie mir bitte die Rechnung bringen?
+000037|Ich habe vor, nächste Woche mit dem Fahrrad zur Arbeit zu fahren.
+000038|Könnten Sie bitte leiser sprechen? Ich versuche zu arbeiten.
+000039|Ich habe gestern einen interessanten Artikel über Umweltschutz gelesen.
+000040|Könnten Sie mir bitte die Richtung zum nächsten Supermarkt zeigen?
+000041|Ich habe vor, dieses Wochenende einen Kuchen zu backen.
+000042|Könnten Sie bitte das Licht einschalten? Es ist ein bisschen dunkel hier.
+000043|Ich habe gestern Abend ein tolles Konzert im Fernsehen gesehen.
+000044|Könnten Sie mir bitte sagen, wann der nächste Zug abfährt?
+000045|Ich habe vor, nächstes Jahr einen Halbmarathon zu laufen.
+000046|Könnten Sie bitte das Radio ausschalten? Ich brauche Ruhe.
+000047|Ich habe gestern meine Großeltern besucht und wir hatten eine schöne Zeit.
+000048|Könnten Sie mir bitte ein Taxi rufen?
+000049|Ich habe vor, dieses Jahr mehr Bücher zu lesen.
+000050|Könnten Sie bitte überprüfen, ob ich irgendwelche Nachrichten habe?
+000051|Ich habe gestern einen Kochkurs besucht und viel gelernt.
+000052|Könnten Sie mir bitte helfen, mein Gepäck zu finden?
+000053|Ich habe vor, dieses Jahr an einem Fotografiekurs teilzunehmen.
+000054|Könnten Sie bitte das Fenster öffnen? Es ist ein wenig stickig.
+000055|Ich habe gestern ein neues Restaurant ausprobiert und es war sehr lecker.
+000056|Könnten Sie mir bitte die Uhrzeit sagen?
+000057|Ich habe vor, nächste Woche meine Freunde zu einer Party einzuladen.
+000058|Könnten Sie bitte das Dokument für mich kopieren?
+000059|Ich habe gestern Abend ein interessantes Buch zu Ende gelesen.
+000060|Könnten Sie mir bitte einen Moment helfen?
+000061|Ich habe vor, dieses Jahr zu lernen, wie man segelt.
+000062|Könnten Sie bitte das Paket für mich annehmen?
+000063|Ich habe gestern einen langen Spaziergang im Wald gemacht.
+000064|Könnten Sie mir bitte etwas über die Geschichte dieser Stadt erzählen?
+000065|Ich habe vor, nächstes Wochenende einen Ausflug in die Berge zu machen.
+000066|Könnten Sie bitte das Salz reichen?
+000067|Ich habe gestern einen neuen Sprachkurs angefangen.
+000068|Könnten Sie mir bitte einen Rat geben?
+000069|Ich habe vor, dieses Jahr ein neues Hobby zu beginnen.
+000070|Könnten Sie bitte aufhören zu rauchen? Es stört mich.
+000071|Ich habe gestern einen alten Freund zufällig auf der Straße getroffen.
+000072|Könnten Sie mir bitte die Tür öffnen?
+000073|Ich habe vor, dieses Jahr gesünder zu essen.
+000074|Könnten Sie bitte das Licht ausschalten, wenn Sie gehen?
+000075|Ich habe gestern ein interessantes Gespräch mit meinem Nachbarn geführt.
+000076|Könnten Sie mir bitte sagen, wie ich zu diesem Gebäude komme?
+000077|Ich habe vor, dieses Jahr mehr Sport zu treiben.
+000078|Könnten Sie bitte das Wasser abstellen? Das Waschbecken ist voll.
+000079|Ich habe gestern ein neues Lied auf der Gitarre gelernt.
+000080|Könnten Sie mir bitte einen Moment Aufmerksamkeit schenken?
+000081|Ich habe vor, dieses Jahr an einem Tanzkurs teilzunehmen.
+000082|Könnten Sie bitte das Radio etwas leiser stellen?
+000083|Ich habe gestern eine Dokumentation über die Ozeane gesehen.
+000084|Könnten Sie mir bitte ein Stück Kuchen geben?
+000085|Ich habe vor, dieses Jahr mehr Zeit mit meiner Familie zu verbringen.
+000086|Könnten Sie bitte das Fenster schließen? Es ist kalt.
+000087|Ich habe gestern ein altes Fotoalbum durchgeblättert und in Erinnerungen geschwelgt.
+000088|Könnten Sie mir bitte die Butter reichen?
+000089|Ich habe vor, dieses Jahr einen Sprachkurs in Spanisch zu machen.
+000090|Könnten Sie bitte das Licht im Flur einschalten?
+000091|Ich habe gestern einen neuen Park in der Stadt entdeckt.
+000092|Könnten Sie mir bitte sagen, wo die Toiletten sind?
+000093|Ich habe vor, dieses Jahr an einem Marathon teilzunehmen.
+000094|Könnten Sie bitte das Wasser für den Tee aufsetzen?
+000095|Ich habe gestern meine Uhr reparieren lassen.
+000096|Könnten Sie mir bitte ein neues Blatt Papier geben?
+000097|Ich habe vor, dieses Jahr mehr für wohltätige Zwecke zu spenden.
+000098|Könnten Sie bitte das Radio einschalten? Ich möchte Nachrichten hören.
+000099|Ich habe gestern einen interessanten Vortrag an der Universität besucht.
+000100|Könnten Sie mir bitte sagen, wie spät der letzte Bus fährt?
+000101|Ich habe vor, dieses Jahr einen Kurs in kreativem Schreiben zu belegen.
+000102|Könnten Sie bitte das Fenster öffnen? Es ist sehr warm hier.
+000103|Ich habe gestern einen neuen Rekord im Schwimmen aufgestellt.
+000104|Könnten Sie mir bitte sagen, wo die nächste Bushaltestelle ist?
+000105|Ich habe vor, dieses Jahr einen Kochkurs zu besuchen.
+000106|Könnten Sie bitte das Licht im Badezimmer einschalten?
+000107|Ich habe gestern einen alten Freund aus der Schule getroffen.
+000108|Könnten Sie mir bitte sagen, wo ich ein Taxi finden kann?
+000109|Ich habe vor, dieses Jahr einen Kurs in Fotografie zu belegen.
+000110|Könnten Sie bitte das Radio etwas lauter stellen?
+000111|Ich habe gestern einen neuen Rekord im Laufen aufgestellt.
+000112|Könnten Sie mir bitte sagen, wo die nächste U-Bahn-Station ist?
+000113|Ich habe vor, dieses Jahr einen Kurs in Zeichnen zu belegen.
+000114|Könnten Sie bitte das Licht im Schlafzimmer ausschalten?
+000115|Ich habe gestern einen alten Freund aus der Universität getroffen.
+000116|Könnten Sie mir bitte sagen, wo ich ein Fahrrad mieten kann?
+000117|Ich habe vor, dieses Jahr einen Kurs in Malerei zu belegen.
+000118|Könnten Sie bitte das Radio etwas leiser stellen?
+000119|Ich habe gestern einen neuen Rekord im Radfahren aufgestellt.
+000120|Könnten Sie mir bitte sagen, wo die nächste Straßenbahnhaltestelle ist?
+000121|Ich habe vor, dieses Jahr einen Kurs in Bildhauerei zu belegen.
+000122|Könnten Sie bitte das Licht im Wohnzimmer einschalten?
+000123|Ich habe gestern einen alten Freund aus meiner Kindheit getroffen.
+000124|Könnten Sie mir bitte sagen, wo ich ein Auto mieten kann?
+000125|Ich habe vor, dieses Jahr einen Kurs in Keramik zu belegen.
+000126|Könnten Sie bitte das Radio ausschalten?
+000127|Ich habe gestern einen neuen Rekord im Gewichtheben aufgestellt.
+000128|Könnten Sie mir bitte sagen, wo die nächste Tankstelle ist?
+000129|Ich habe vor, dieses Jahr einen Kurs in Webdesign zu belegen.
+000130|Könnten Sie bitte das Licht im Esszimmer ausschalten?
+000131|Ich habe gestern einen alten Freund aus meiner Jugend getroffen.
+000132|Könnten Sie mir bitte sagen, wo ich ein Motorrad mieten kann?
+000133|Ich habe vor, dieses Jahr einen Kurs in Grafikdesign zu belegen.
+000134|Könnten Sie bitte das Radio einschalten?
+000135|Ich habe gestern einen neuen Rekord im Tennis aufgestellt.
+000136|Könnten Sie mir bitte sagen, wo die nächste Apotheke ist?
+000137|Ich habe vor, dieses Jahr einen Kurs in Innenarchitektur zu belegen.
+000138|Könnten Sie bitte das Licht im Arbeitszimmer einschalten?
+000139|Ich habe gestern einen alten Freund aus meiner Studienzeit getroffen.
+000140|Könnten Sie mir bitte sagen, wo ich ein Boot mieten kann?
+000141|Ich habe vor, dieses Jahr einen Kurs in Modedesign zu belegen.
+000142|Könnten Sie bitte das Radio ausschalten?
+000143|Ich habe gestern einen neuen Rekord im Basketball aufgestellt.
+000144|Könnten Sie mir bitte sagen, wo die nächste Bäckerei ist?
+000145|Ich habe vor, dieses Jahr einen Kurs in Produktdesign zu belegen.
+000146|Könnten Sie bitte das Licht im Keller ausschalten?
+000147|Ich habe gestern einen alten Freund aus meiner Schulzeit getroffen.
+000148|Könnten Sie mir bitte sagen, wo ich ein Pferd mieten kann?
+000149|Ich habe vor, dieses Jahr einen Kurs in Landschaftsarchitektur zu belegen.
+000150|Könnten Sie bitte das Radio einschalten?
+000151|Ich habe gestern einen neuen Rekord im Volleyball aufgestellt.
+000152|Könnten Sie mir bitte sagen, wo die nächste Metzgerei ist?
+000153|Ich habe vor, dieses Jahr einen Kurs in Schmuckdesign zu belegen.
+000154|Könnten Sie bitte das Licht im Dachboden einschalten?
+000155|Ich habe gestern einen alten Freund aus meiner Kindheit getroffen.
+000156|Könnten Sie mir bitte sagen, wo ich ein Segelboot mieten kann?
+000157|Ich habe vor, dieses Jahr einen Kurs in Typografie zu belegen.
+000158|Könnten Sie bitte das Radio ausschalten?
+000159|Ich habe gestern einen neuen Rekord im Badminton aufgestellt.
+000160|Könnten Sie mir bitte sagen, wo die nächste Konditorei ist?
+000161|Ich habe vor, dieses Jahr einen Kurs in Illustration zu belegen.
+000162|Könnten Sie bitte das Licht im Flur ausschalten?
+000163|Ich habe gestern einen alten Freund aus meiner Jugend getroffen.
+000164|Könnten Sie mir bitte sagen, wo ich ein Kanu mieten kann?
+000165|Ich habe vor, dieses Jahr einen Kurs in Animation zu belegen.
+000166|Könnten Sie bitte das Radio einschalten?
+000167|Ich habe gestern einen neuen Rekord im Tischtennis aufgestellt.
+000168|Könnten Sie mir bitte sagen, wo die nächste Pizzeria ist?
+000169|Ich habe vor, dieses Jahr einen Kurs in Videospiel-Design zu belegen.
+000170|Könnten Sie bitte das Licht im Badezimmer ausschalten?
+000171|Ich habe gestern einen alten Freund aus meiner Studienzeit getroffen.
+000172|Könnten Sie mir bitte sagen, wo ich ein Surfbrett mieten kann?
+000173|Ich habe vor, dieses Jahr einen Kurs in Filmproduktion zu belegen.
+000174|Könnten Sie bitte das Radio ausschalten?
+000175|Ich habe gestern einen neuen Rekord im Squash aufgestellt.
+000176|Könnten Sie mir bitte sagen, wo die nächste Eisdiele ist?
+000177|Ich habe vor, dieses Jahr einen Kurs in Musikproduktion zu belegen.
+000178|Könnten Sie bitte das Licht im Schlafzimmer einschalten?
+000179|Ich habe gestern einen alten Freund aus meiner Kindheit getroffen.
+000180|Könnten Sie mir bitte sagen, wo ich ein Snowboard mieten kann?
+000181|Ich habe vor, dieses Jahr einen Kurs in Sounddesign zu belegen.
+000182|Könnten Sie bitte das Radio einschalten?
+000183|Ich habe gestern einen neuen Rekord im Golf aufgestellt.
+000184|Könnten Sie mir bitte sagen, wo die nächste Buchhandlung ist?
+000185|Ich habe vor, dieses Jahr einen Kurs in Theaterproduktion zu belegen.
+000186|Könnten Sie bitte das Licht im Wohnzimmer ausschalten?
+000187|Ich habe gestern einen alten Freund aus meiner Jugend getroffen.
+000188|Könnten Sie mir bitte sagen, wo ich ein Skateboard mieten kann?
+000189|Ich habe vor, dieses Jahr einen Kurs in Tanzproduktion zu belegen.
+000190|Könnten Sie bitte das Radio ausschalten?
+000191|Ich habe gestern einen neuen Rekord im Bowling aufgestellt.
+000192|Könnten Sie mir bitte sagen, wo die nächste Bibliothek ist?
+000193|Ich habe vor, dieses Jahr einen Kurs in Eventplanung zu belegen.
+000194|Könnten Sie bitte das Licht im Esszimmer einschalten?
+000195|Ich habe gestern einen alten Freund aus meiner Studienzeit getroffen.
+000196|Könnten Sie mir bitte sagen, wo ich ein Fahrrad mieten kann?
+000197|Ich habe vor, dieses Jahr einen Kurs in Modedesign zu belegen.
+000198|Könnten Sie bitte das Radio einschalten?
+000199|Ich habe gestern einen neuen Rekord im Dart aufgestellt.
+000200|Könnten Sie mir bitte sagen, wo die nächste Post ist?

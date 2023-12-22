@@ -20,6 +20,8 @@ from scipy.io.wavfile import write
 import argparse
 from torch.multiprocessing import Pool
 import concurrent.futures
+from torch.multiprocessing import Pool, get_start_method, set_start_method
+
 
 def preprocess_char(text, lang=None):
     """
@@ -102,12 +104,52 @@ def preprocess_text(txt, text_mapper, hps, uroman_dir=None, lang=None):
     txt = text_mapper.filter_oov(txt)
     return txt
 
-if torch.cuda.is_available():
-    device = torch.device("cuda")
-else:
-    device = torch.device("cpu")
+def init(shared_args):
+    global net_g  # Make net_g a global variable in the subprocess
+    text_mapper, hps, device, ckpt_dir, _, _ = shared_args
+    
+    # Reinitialize net_g in the subprocess
+    net_g = SynthesizerTrn(
+        len(text_mapper.symbols),
+        hps.data.filter_length // 2 + 1,
+        hps.train.segment_size // hps.data.hop_length,
+        **hps.model)
+    net_g.to(device)
+    _ = net_g.eval()
+
+    g_pth = f"{ckpt_dir}/G_100000.pth"
+    print(f"load {g_pth}")
+
+    _ = utils.load_checkpoint(g_pth, net_g, None)
+
+def process_transcript(args):
+    line, shared_args = args
+    text_mapper, hps, device, ckpt_dir, lang, output_dir = shared_args
+    global net_g  # Use the global net_g variable in the subprocess
+    file_name, txt = line.strip().split("|")
+    print(f"text: {txt}")
+    txt = preprocess_text(txt, text_mapper, hps, lang=lang, uroman_dir="../uroman")
+    stn_tst = text_mapper.get_text(txt, hps)
+    with torch.no_grad():
+        x_tst = stn_tst.unsqueeze(0).to(device)
+        x_tst_lengths = torch.LongTensor([stn_tst.size(0)]).to(device)
+        hyp = net_g.infer(
+            x_tst, x_tst_lengths, noise_scale=.667,
+            noise_scale_w=0.8, length_scale=1.0
+        )[0][0, 0].cpu().float().numpy()
+
+    print(f"Generated audio")
+
+    # Save audio
+    os.makedirs(output_dir, exist_ok=True)
+    output_file = os.path.join(output_dir, f"MMSTTS_{lang}_{file_name}.wav")
+    write(output_file, hps.data.sampling_rate, hyp)
 
 def main():
+
+    device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")    
+    print(f"Run inference with {device}")
+
     LANGS = ["eng", "kor", "rus", "vie", "nod", "hin", "ara", "fra", "deu"]
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -149,38 +191,50 @@ def main():
     assert os.path.isfile(config_file), f"{config_file} doesn't exist"
     hps = utils.get_hparams_from_file(config_file)
     text_mapper = TextMapper(vocab_file)
-    net_g = SynthesizerTrn(
-        len(text_mapper.symbols),
-        hps.data.filter_length // 2 + 1,
-        hps.train.segment_size // hps.data.hop_length,
-        **hps.model)
-    net_g.to(device)
-    _ = net_g.eval()
+    # net_g = SynthesizerTrn(
+    #     len(text_mapper.symbols),
+    #     hps.data.filter_length // 2 + 1,
+    #     hps.train.segment_size // hps.data.hop_length,
+    #     **hps.model)
+    # net_g.to(device)
+    # _ = net_g.eval()
 
-    g_pth = f"{ckpt_dir}/G_100000.pth"
-    print(f"load {g_pth}")
+    # g_pth = f"{ckpt_dir}/G_100000.pth"
+    # print(f"load {g_pth}")
 
-    _ = utils.load_checkpoint(g_pth, net_g, None)
+    # _ = utils.load_checkpoint(g_pth, net_g, None)
 
-    for line in open(args.transcript_file):
-        file_name, txt = line.strip().split("|")
-        print(f"text: {txt}")
-        txt = preprocess_text(txt, text_mapper, hps, lang=args.lang, uroman_dir="../uroman")
-        stn_tst = text_mapper.get_text(txt, hps)
-        with torch.no_grad():
-            x_tst = stn_tst.unsqueeze(0).to(device)
-            x_tst_lengths = torch.LongTensor([stn_tst.size(0)]).to(device)
-            hyp = net_g.infer(
-                x_tst, x_tst_lengths, noise_scale=.667,
-                noise_scale_w=0.8, length_scale=1.0
-            )[0][0,0].cpu().float().numpy()
+    # for line in open(args.transcript_file):
+    #     file_name, txt = line.strip().split("|")
+    #     print(f"text: {txt}")
+    #     txt = preprocess_text(txt, text_mapper, hps, lang=args.lang, uroman_dir="../uroman")
+    #     stn_tst = text_mapper.get_text(txt, hps)
+    #     with torch.no_grad():
+    #         x_tst = stn_tst.unsqueeze(0).to(device)
+    #         x_tst_lengths = torch.LongTensor([stn_tst.size(0)]).to(device)
+    #         hyp = net_g.infer(
+    #             x_tst, x_tst_lengths, noise_scale=.667,
+    #             noise_scale_w=0.8, length_scale=1.0
+    #         )[0][0,0].cpu().float().numpy()
         
-        print(f"Generated audio") 
+    #     print(f"Generated audio") 
 
-        # Save audio
-        os.makedirs(args.output_dir, exist_ok=True)
-        output_file = os.path.join(args.output_dir, f"{file_name}.wav")
-        write(output_file, hps.data.sampling_rate, hyp)
+    #     # Save audio
+    #     os.makedirs(args.output_dir, exist_ok=True)
+    #     output_file = os.path.join(args.output_dir, f"{file_name}.wav")
+    #     write(output_file, hps.data.sampling_rate, hyp)
+    # Read transcript lines
+    if get_start_method() == 'fork':
+        set_start_method('spawn', force=True)
+
+    transcript_lines = [line.strip() for line in open(args.transcript_file)]
+    # Initialize shared arguments
+    shared_args = (text_mapper, hps, device, ckpt_dir, args.lang, args.output_dir)
+
+    # Initialize multiprocessing pool
+    with Pool(processes=args.max_workers, initializer=init, initargs=(shared_args,)) as pool:
+        # Use pool.map to process transcript lines
+        pool.map(process_transcript, [(line, shared_args) for line in transcript_lines])
     
 
 if __name__ == "__main__":

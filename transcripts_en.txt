@@ -1,2 +1,200 @@
-00000003|My name is Minjun. I'm from South Korea. I live in Seoul.
-00000004|I’ve been learning Korean for a year. I enjoy listening to music.
+000001|The quick brown fox jumps over the lazy dog.
+000002|I am a language model trained by Perplexity AI.
+000003|The sun rises in the east and sets in the west.
+000004|She sells seashells by the seashore.
+000005|Peter Piper picked a peck of pickled peppers.
+000006|How much wood would a woodchuck chuck if a woodchuck could chuck wood?
+000007|The rain in Spain stays mainly in the plain.
+000008|I think, therefore I am.
+000009|To be or not to be, that is the question.
+000010|All that glitters is not gold.
+000011|Out of sight, out of mind.
+000012|Every cloud has a silver lining.
+000013|Actions speak louder than words.
+000014|The pen is mightier than the sword.
+000015|Where there's smoke, there's fire.
+000016|A picture is worth a thousand words.
+000017|When in Rome, do as the Romans do.
+000018|The early bird catches the worm.
+000019|Don't count your chickens before they're hatched.
+000020|You can't judge a book by its cover.
+000021|Don't put all your eggs in one basket.
+000022|Two heads are better than one.
+000023|The grass is always greener on the other side.
+000024|A bird in the hand is worth two in the bush.
+000025|You can lead a horse to water, but you can't make it drink.
+000026|Don't bite the hand that feeds you.
+000027|A stitch in time saves nine.
+000028|Every dog has its day.
+000029|You can't make an omelette without breaking eggs.
+000030|There's no smoke without fire.
+000031|What goes up must come down.
+000032|You can't have your cake and eat it too.
+000033|Beggars can't be choosers.
+000034|Actions speak louder than words.
+000035|What's done is done.
+000036|Practice makes perfect.
+000037|Too many cooks spoil the broth.
+000038|Easy come, easy go.
+000039|Don't cross your bridges before you come to them.
+000040|Look before you leap.
+000041|Strike while the iron is hot.
+000042|It's no use crying over spilt milk.
+000043|You can't make a silk purse out of a sow's ear.
+000044|Every cloud has a silver lining.
+000045|Where there's muck there's brass.
+000046|What's sauce for the goose is sauce for the gander.
+000047|An apple a day keeps the doctor away.
+000048|You can't teach an old dog new tricks.
+000049|A rolling stone gathers no moss.
+000050|Birds of a feather flock together.
+000051|There's no place like home.
+000052|The early bird catches the worm.
+000053|The pen is mightier than the sword.
+000054|Out of sight, out of mind.
+000055|A picture is worth a thousand words.
+000056|Actions speak louder than words.
+000057|Where there's smoke, there's fire.
+000058|Don't count your chickens before they're hatched.
+000059|You can't judge a book by its cover.
+000060|Don't put all your eggs in one basket.
+000061|Two heads are better than one.
+000062|The grass is always greener on the other side.
+000063|A bird in the hand is worth two in the bush.
+000064|You can lead a horse to water, but you can't make it drink.
+000065|Don't bite the hand that feeds you.
+000066|A stitch in time saves nine.
+000067|Every dog has its day.
+000068|You can't make an omelette without breaking eggs.
+000069|There's no smoke without fire.
+000070|What goes up must come down.
+000071|You can't have your cake and eat it too.
+000072|Beggars can't be choosers.
+000073|Actions speak louder than words.
+000074|What's done is done.
+000075|Practice makes perfect.
+000076|Too many cooks spoil the broth.
+000077|Easy come, easy go.
+000078|Don't cross your bridges before you come to them.
+000079|Look before you leap.
+000080|Strike while the iron is hot.
+000081|It's no use crying over spilt milk.
+000082|You can't make a silk purse out of a sow's ear.
+000083|Every cloud has a silver lining.
+000084|Where there's muck there's brass.
+000085|What's sauce for the goose is sauce for the gander.
+000086|An apple a day keeps the doctor away.
+000087|You can't teach an old dog new tricks.
+000088|A rolling stone gathers no moss.
+000089|Birds of a feather flock together.
+000090|There's no place like home.
+000091|The early bird catches the worm.
+000092|The pen is mightier than the sword.
+000093|Out of sight, out of mind.
+000094|A picture is worth a thousand words.
+000095|Actions speak louder than words.
+000096|Where there's smoke, there's fire.
+000097|Don't count your chickens before they're hatched.
+000098|You can't judge a book by its cover.
+000099|Don't put all your eggs in one basket.
+000100|Two heads are better than one.
+000101|Every morning, I take my dog for a walk in the park.
+000102|I recently started learning how to bake, and my first cake was a success.
+000103|On weekends, I volunteer at the local animal shelter.
+000104|My dream is to travel the world and experience different cultures.
+000105|I find gardening to be a relaxing and rewarding hobby.
+000106|I'm training for my first half-marathon next month.
+000107|I enjoy painting landscapes and still life compositions.
+000108|My family and I have a tradition of playing board games every Friday night.
+000109|I'm fascinated by the stars and often spend nights stargazing.
+000110|I've been practicing the piano since I was six years old.
+000111|I'm passionate about environmental conservation and sustainability.
+000112|I love to write short stories and hope to publish a collection someday.
+000113|I'm an avid reader and always have a book with me wherever I go.
+000114|I'm learning to speak Spanish and plan to visit Spain next year.
+000115|I enjoy experimenting with new recipes and cooking for my friends.
+000116|I'm interested in photography and love capturing moments with my camera.
+000117|I'm studying to become a graphic designer and create my own brand.
+000118|I'm a history buff and enjoy visiting museums and historical sites.
+000119|I'm learning to code and build my own apps and websites.
+000120|I'm an amateur astronomer and have a small telescope at home.
+000121|I'm a tea enthusiast and enjoy trying different blends and flavors.
+000122|I'm learning to surf and spend most of my weekends at the beach.
+000123|I'm a DIY enthusiast and enjoy crafting and building things from scratch.
+000124|I'm a film critic at heart and love discussing movies with friends.
+000125|I'm a yoga practitioner and start each day with a session of meditation.
+000126|I'm a tech geek and love keeping up with the latest gadgets and innovations.
+000127|I'm a jazz lover and often attend live music performances in the city.
+000128|I'm a chess player and compete in local tournaments.
+000129|I'm a birdwatcher and have a journal where I record all my sightings.
+000130|I'm a cyclist and enjoy exploring new trails on my mountain bike.
+000131|I'm a fashion enthusiast and enjoy creating my own clothing designs.
+000132|I'm a sculptor and work with various materials to create art pieces.
+000133|I'm a linguist and am fascinated by the structure and evolution of language.
+000134|I'm a dancer and practice various styles, from ballet to hip-hop.
+000135|I'm a botanist and have a collection of rare and exotic plants.
+000136|I'm a nutritionist and help people create healthy meal plans.
+000137|I'm a comedian and perform stand-up at local comedy clubs.
+000138|I'm a brewer and enjoy making my own beer and cider at home.
+000139|I'm a beekeeper and harvest my own honey.
+000140|I'm a carpenter and create custom furniture for clients.
+000141|I'm a fitness coach and help people achieve their personal health goals.
+000142|I'm a gamer and enjoy playing both video and tabletop games.
+000143|I'm a hiker and have climbed several mountain peaks.
+000144|I'm a kayaker and love paddling through rivers and lakes.
+000145|I'm a magician and entertain at parties and events.
+000146|I'm a novelist and am working on my first fantasy series.
+000147|I'm a potter and create ceramics in my home studio.
+000148|I'm a runner and participate in marathons around the country.
+000149|I'm a singer and perform with a local choir.
+000150|I'm a traveler and have a blog where I share my adventures.
+000151|I'm a vegan and advocate for animal rights.
+000152|I'm a vlogger and share my daily life on social media.
+000153|I'm a winemaker and have my own vineyard.
+000154|I'm a zoologist and conduct research on wildlife conservation.
+000155|I'm an acrobat and perform in a circus troupe.
+000156|I'm an artist and my paintings have been exhibited in galleries.
+000157|I'm an entrepreneur and started my own tech company.
+000158|I'm an ice skater and train for competitions.
+000159|I'm an illustrator and work on children's books.
+000160|I'm an inventor and hold patents for several products.
+000161|I'm an origami artist and teach workshops on paper folding.
+000162|I'm an urban gardener and grow vegetables on my rooftop.
+000163|I'm learning archery and practice at a local range.
+000164|I'm studying marine biology and am passionate about ocean life.
+000165|I'm training to be a pilot and love the thrill of flying.
+000166|I'm working on a documentary about the history of my hometown.
+000167|I'm writing a play that I hope to see performed on stage.
+000168|I've started a collection of vintage vinyl records.
+000169|I've taken up pottery and find shaping clay to be therapeutic.
+000170|I've traveled to every continent except Antarctica.
+000171|I enjoy snorkeling and exploring the underwater world.
+000172|I have a goal to read 100 books this year.
+000173|I have a green thumb and my garden is my pride and joy.
+000174|I have a passion for classical music and play the violin.
+000175|I have been practicing martial arts for several years.
+000176|I love experimenting with digital art and animation.
+000177|I love to go camping and spend time in the wilderness.
+000178|I make handmade soaps and sell them at local markets.
+000179|I participate in community theater and enjoy acting.
+000180|I practice mindfulness and find it helps with my daily stress.
+000181|I spend my free time volunteering at a local food bank.
+000182|I study different cultures and their customs.
+000183|I take part in historical reenactments.
+000184|I teach a robotics class to high school students.
+000185|I'm a competitive swimmer and train every morning.
+000186|I'm a freelance writer and contribute to various magazines.
+000187|I'm a member of a book club where we discuss contemporary literature.
+000188|I'm a professional dog trainer and work with all breeds.
+000189|I'm a puppeteer and create my own puppet shows.
+000190|I'm a sommelier and have a deep appreciation for fine wines.
+000191|I'm a tattoo artist and enjoy creating custom designs for my clients.
+000192|I'm a tour guide and love showing people around my city.
+000193|I'm a voice actor and have worked on several animated films.
+000194|I'm an amateur radio operator and communicate with people around the world.
+000195|I'm an avid skateboarder and spend hours at the skate park.
+000196|I'm an equestrian and compete in horseback riding events.
+000197|I'm learning to play the cello and join a local orchestra.
+000198|I'm studying entomology and have a fascination with insects.
+000199|I'm training in aerial silks and perform at local events.
+000200|I'm working on restoring a classic car from the 1960s.
